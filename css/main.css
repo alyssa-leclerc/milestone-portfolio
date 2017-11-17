@@ -9,7 +9,7 @@ body{
 }
 
 #about{
-  height: 550px;
+  height: 500px;
 }
 
 #skills{
@@ -47,6 +47,10 @@ p{
 a{
   color: #282C34;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #business-card-page, #holstee-manifesto-page, #rogue-pickings-page{
@@ -124,21 +128,24 @@ nav ul li a{
   color: #E06C75;
 }
 
+#about p{
+  line-height: 2;
+}
+
 #about img{
   border: 10px solid #282C34;
   border-radius: 50%;
   float: left;
-  height: 350px;
-  margin: 20px 125px;
+  height: 300px;
+  margin: 10px 150px;
   overflow: hidden;
-  width: 350px;
+  width: 300px;
 }
 
 /***** SKILLS *****/
 
 #skills h2{
   color: #D19A62;
-  font-size: 30px;
 }
 
 #skills .third-width{
